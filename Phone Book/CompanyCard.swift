@@ -1,13 +1,13 @@
 //
-//  DepartmentView.swift
+//  CompanyCard.swift
 //  Phone Book
 //
-//  Created by Shelton Brown on 10/23/23.
+//  Created by Shelton Brown on 10/24/23.
 //
 
 import SwiftUI
 
-struct DepartmentView: View {
+struct CompanyCard: View {
 	
 	var company: Companies
 	
@@ -17,5 +17,5 @@ struct DepartmentView: View {
 }
 
 #Preview {
-	DepartmentView(company: Companies(company_name: "ABC Corp", department: [Departments]()))
+	CompanyCard(company: Companies( company_name: "ABC Corp", department: [Departments]()))
 }

@@ -14,12 +14,14 @@ struct CompanyView: View {
 	
     var body: some View {
 			NavigationStack {
-				ScrollView(showsIndicators: false)
-				
-				VStack {
-					ForEach(companies) { company in
-						NavigationLink {
-							DepartmentView()
+				ScrollView {
+					VStack {
+						ForEach(companies) { company in
+							NavigationLink {
+							DepartmentView(company: company)
+							} label: {
+								CompanyCard(company: company)
+							}
 						}
 					}
 				}

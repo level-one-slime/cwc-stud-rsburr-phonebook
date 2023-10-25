@@ -7,8 +7,10 @@
 
 import Foundation
 
-struct Companies: Decodable {
+struct Companies: Identifiable, Decodable {
 	
+	let id = UUID()
 	var company_name: String
+	var department: [Departments]
 	
 }

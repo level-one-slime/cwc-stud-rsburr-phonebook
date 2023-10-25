@@ -8,11 +8,14 @@
 import SwiftUI
 
 struct EmployeeView: View {
+	
+	var department: Departments
+	
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
 }
 
 #Preview {
-    EmployeeView()
+	EmployeeView(department: Departments(department_name: "HR", employee: [Employees]()))
 }

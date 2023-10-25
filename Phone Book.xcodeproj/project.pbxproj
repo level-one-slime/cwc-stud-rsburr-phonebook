@@ -19,6 +19,7 @@
 		0FBADF2A2AE715F300CD956C /* DepartmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBADF292AE715F300CD956C /* DepartmentView.swift */; };
 		0FBADF2C2AE7160A00CD956C /* EmployeeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBADF2B2AE7160A00CD956C /* EmployeeView.swift */; };
 		0FBADF2E2AE7162400CD956C /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBADF2D2AE7162400CD956C /* DataService.swift */; };
+		0FD9EEDC2AE894B200E168C6 /* CompanyCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD9EEDB2AE894B200E168C6 /* CompanyCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		0FBADF292AE715F300CD956C /* DepartmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepartmentView.swift; sourceTree = "<group>"; };
 		0FBADF2B2AE7160A00CD956C /* EmployeeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeView.swift; sourceTree = "<group>"; };
 		0FBADF2D2AE7162400CD956C /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		0FD9EEDB2AE894B200E168C6 /* CompanyCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				0FBADF272AE715D900CD956C /* CompanyView.swift */,
 				0FBADF292AE715F300CD956C /* DepartmentView.swift */,
 				0FBADF2B2AE7160A00CD956C /* EmployeeView.swift */,
+				0FD9EEDB2AE894B200E168C6 /* CompanyCard.swift */,
 				0FBADF152AE6EE1400CD956C /* Assets.xcassets */,
 				0FBADF172AE6EE1400CD956C /* Preview Content */,
 				0FBADF1F2AE70A6E00CD956C /* Companies.swift */,
@@ -163,6 +166,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0FBADF2E2AE7162400CD956C /* DataService.swift in Sources */,
+				0FD9EEDC2AE894B200E168C6 /* CompanyCard.swift in Sources */,
 				0FBADF2C2AE7160A00CD956C /* EmployeeView.swift in Sources */,
 				0FBADF142AE6EE1300CD956C /* ContentView.swift in Sources */,
 				0FBADF122AE6EE1300CD956C /* Phone_BookApp.swift in Sources */,
