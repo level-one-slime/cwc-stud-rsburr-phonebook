@@ -11,7 +11,7 @@ struct DataService {
 	
 	func getFileData() -> [Companies] {
 		
-		if let url = Bundle.main.url(forResource: "CompanyData", withExtension: "json") {
+		if let url = Bundle.main.url(forResource: "cwc-ios-foundations-2023-m4-challenge", withExtension: "json") {
 			
 			
 			do {

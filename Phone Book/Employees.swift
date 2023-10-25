@@ -7,9 +7,9 @@
 
 import Foundation
 
-struct Employees: Identifiable {
+struct Employees: Identifiable, Decodable {
 	
-	let id = UUID()
+	var id = UUID()
 	var name: String
 	var position: String
 	var email: String

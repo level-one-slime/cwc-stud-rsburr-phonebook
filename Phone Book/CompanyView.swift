@@ -14,7 +14,8 @@ struct CompanyView: View {
 	
     var body: some View {
 			NavigationStack {
-				ScrollView {
+				ScrollView(showsIndicators: false) {
+					
 					VStack {
 						ForEach(companies) { company in
 							NavigationLink {
@@ -25,6 +26,9 @@ struct CompanyView: View {
 						}
 					}
 				}
+				.onAppear(perform: {
+					companies = dataService.getFileData()
+				})
 			}
     }
 }

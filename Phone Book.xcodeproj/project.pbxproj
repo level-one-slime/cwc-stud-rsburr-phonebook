@@ -20,6 +20,7 @@
 		0FBADF2C2AE7160A00CD956C /* EmployeeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBADF2B2AE7160A00CD956C /* EmployeeView.swift */; };
 		0FBADF2E2AE7162400CD956C /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBADF2D2AE7162400CD956C /* DataService.swift */; };
 		0FD9EEDC2AE894B200E168C6 /* CompanyCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD9EEDB2AE894B200E168C6 /* CompanyCard.swift */; };
+		0FD9EEDE2AE9845600E168C6 /* cwc-ios-foundations-2023-m4-challenge.json in Resources */ = {isa = PBXBuildFile; fileRef = 0FD9EEDD2AE9845600E168C6 /* cwc-ios-foundations-2023-m4-challenge.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		0FBADF2B2AE7160A00CD956C /* EmployeeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeView.swift; sourceTree = "<group>"; };
 		0FBADF2D2AE7162400CD956C /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		0FD9EEDB2AE894B200E168C6 /* CompanyCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyCard.swift; sourceTree = "<group>"; };
+		0FD9EEDD2AE9845600E168C6 /* cwc-ios-foundations-2023-m4-challenge.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "cwc-ios-foundations-2023-m4-challenge.json"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				0FBADF232AE70B2400CD956C /* Employees.swift */,
 				0FBADF2D2AE7162400CD956C /* DataService.swift */,
 				0FBADF252AE7104C00CD956C /* CompanyData.json */,
+				0FD9EEDD2AE9845600E168C6 /* cwc-ios-foundations-2023-m4-challenge.json */,
 			);
 			path = "Phone Book";
 			sourceTree = "<group>";
@@ -152,6 +155,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FD9EEDE2AE9845600E168C6 /* cwc-ios-foundations-2023-m4-challenge.json in Resources */,
 				0FBADF192AE6EE1400CD956C /* Preview Assets.xcassets in Resources */,
 				0FBADF262AE7104C00CD956C /* CompanyData.json in Resources */,
 				0FBADF162AE6EE1400CD956C /* Assets.xcassets in Resources */,
