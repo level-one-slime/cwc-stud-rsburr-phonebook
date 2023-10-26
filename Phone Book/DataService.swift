@@ -7,6 +7,13 @@
 
 import Foundation
 
+struct CompaniesDecoder: Decodable {
+let companies: [Companies]
+	
+	
+	
+}
+
 struct DataService {
 	
 	func getFileData() -> [Companies] {
@@ -23,8 +30,8 @@ struct DataService {
 				
 				do {
 					
-					let companies = try decoder.decode([Companies].self, from: data)
-					return companies
+				let companies = try decoder.decode(CompaniesDecoder.self, from: data)
+					return companies.companies
 				}
 				catch {
 					print("Couldn't parse the JSON: \(error)")
